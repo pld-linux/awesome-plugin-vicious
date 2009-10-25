@@ -7,7 +7,7 @@ Release:	1
 License:	GPL v2
 Group:		X11/Window Managers/Tools
 Source0:	http://git.sysphere.org/vicious/snapshot/vicious-%{version}.tar.gz
-# Source0-md5:	77be6d5098bbeb71b8979063b57ba8e3
+# Source0-md5:	ab3f5af58c59a73700fbcc670c00ebdd
 URL:		http://awesome.naquadah.org/wiki/Vicious
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
