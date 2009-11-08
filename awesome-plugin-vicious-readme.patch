@@ -1,0 +1,15 @@
+--- vicious-1.0.18-orig/README	2009-11-08 15:17:58.821582603 +0100
++++ vicious-1.0.18/README	2009-11-08 15:20:07.314062040 +0100
+@@ -258,6 +258,12 @@
+   - provides the currently playing song in MPD
+   - returns 1st value as the currently playing song
+ 
++vicious.widgets.moc
++  - provides the currently playing song in Moc
++  - returns 1st value is state, 2nd is the artist, 3rd is the title,
++    4nd is the filename, 5nd is the elapsed time, 6nd is the total time
++    of the currently playing song
++
+ vicious.widgets.volume
+   - provides volume levels of requested ALSA mixers
+   - takes the ALSA channel as an argument, i.e. "Master"
