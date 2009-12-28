@@ -1,0 +1,11 @@
+--- vicious-1.0.21-orig/init.lua	2009-12-28 18:32:45.523587414 +0100
++++ vicious-1.0.21/init.lua	2009-12-28 18:37:36.120223843 +0100
+@@ -255,7 +255,7 @@
+     end
+ 
+     if widget.add_value ~= nil then
+-        widget:add_value(tonumber(data) / 100)
++        widget:add_value(tonumber(data))
+     elseif widget.set_value ~= nil then
+         widget:set_value(tonumber(data) / 100)
+     else
