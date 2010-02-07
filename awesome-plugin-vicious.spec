@@ -7,7 +7,7 @@ Release:	1
 License:	GPL v2
 Group:		X11/Window Managers/Tools
 Source0:	http://git.sysphere.org/vicious/snapshot/vicious-%{version}.tar.gz
-# Source0-md5:	47db633f88a0bdcbf112042820a0009b
+# Source0-md5:	8bd4df87d0cc25561f8767afdfc5e28b
 Source1:	moc.lua
 Patch0:		%{name}-readme.patch
 Patch1:		%{name}-graph.patch
