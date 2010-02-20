@@ -2,12 +2,12 @@
 Summary:	Vicious is a modular widget library for the "awesome" window manager
 Summary(hu.UTF-8):	Vicious egy moduláris widget könyvtár az "awesome" ablakkezelőhöz
 Name:		awesome-plugin-%{shortname}
-Version:	1.0.23
+Version:	1.0.24
 Release:	1
 License:	GPL v2
 Group:		X11/Window Managers/Tools
 Source0:	http://git.sysphere.org/vicious/snapshot/vicious-%{version}.tar.gz
-# Source0-md5:	8bd4df87d0cc25561f8767afdfc5e28b
+# Source0-md5:	ffda6db627acb0bbec9eb376a999240e
 Source1:	moc.lua
 Patch0:		%{name}-readme.patch
 Patch1:		%{name}-graph.patch
