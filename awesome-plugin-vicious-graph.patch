@@ -1,11 +1,11 @@
---- vicious-1.0.26-orig/init.lua	2010-03-15 13:12:21.597605325 +0100
-+++ vicious-1.0.26/init.lua	2010-03-15 13:12:31.220937702 +0100
-@@ -115,7 +115,7 @@
+--- vicious-2.0.0-orig/init.lua	2010-03-15 18:51:21.262238357 +0100
++++ vicious-2.0.0/init.lua	2010-03-15 18:51:36.618912701 +0100
+@@ -71,7 +71,7 @@
      end
  
      if widget.add_value ~= nil then
--        widget:add_value(data and tonumber(data) / 100)
-+        widget:add_value(data and tonumber(data))
+-        widget:add_value(tonumber(data) and tonumber(data)/100)
++        widget:add_value(tonumber(data) and tonumber(data))
      elseif widget.set_value ~= nil then
-         widget:set_value(data and tonumber(data) / 100)
+         widget:set_value(tonumber(data) and tonumber(data)/100)
      else
