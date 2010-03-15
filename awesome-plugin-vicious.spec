@@ -7,7 +7,7 @@ Release:	1
 License:	GPL v2
 Group:		X11/Window Managers/Tools
 Source0:	http://git.sysphere.org/vicious/snapshot/vicious-%{version}.tar.gz
-# Source0-md5:	eb7a67f13581b913220c2c50c004a12d
+# Source0-md5:	c74318743e135e915dc31e11aa57bd99
 Patch0:		%{name}-graph.patch
 URL:		http://awesome.naquadah.org/wiki/Vicious
 Requires:	awesome >= 3.4
