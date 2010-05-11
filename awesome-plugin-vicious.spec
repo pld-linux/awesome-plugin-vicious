@@ -11,6 +11,10 @@ Source0:	http://git.sysphere.org/vicious/snapshot/vicious-%{version}.tar.gz
 Patch0:		%{name}-graph.patch
 URL:		http://awesome.naquadah.org/wiki/Vicious
 Requires:	awesome >= 3.4
+Suggests:	alsa-utils
+Suggests:	curl
+Suggests:	hddtemp
+Suggests:	wireless-tools
 Obsoletes:	awesome-plugin-wicked
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -20,10 +24,20 @@ Vicious is a modular widget library for the "awesome" window manager,
 derived from the "Wicked" widget library. Vicious widget types are a
 framework for creating your own widgets.
 
+Volume widget needs alsa-utils.
+Gmail widget needs curl.
+HDD Temperature widget needs hddtemp.
+Wireless widget needs wireless-tools.
+
 %description -l hu.UTF-8
 Vicious egy moduláris widget könyvtár az "awesome" ablakkezelőhöz, a
 Wicked widget könyvtár alapjain. Vicious egy keretrendszert is
 biztosít saját widgetek létrehozásához.
+
+Volume widgetnek kell alsa-utils.
+Gmail widgetnek kell curl.
+HDD Temperature widgetnek kell hddtemp.
+Wireless widgetnek kell wireless-tools.
 
 %prep
 %setup -q -n %{shortname}-%{version}
