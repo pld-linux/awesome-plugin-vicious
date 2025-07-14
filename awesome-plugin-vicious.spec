@@ -41,7 +41,7 @@ Wireless widgetnek kell wireless-tools.
 
 %prep
 %setup -q -n %{shortname}-%{version}
-%patch0 -p1
+%patch -P0 -p1
 
 %install
 rm -rf $RPM_BUILD_ROOT
